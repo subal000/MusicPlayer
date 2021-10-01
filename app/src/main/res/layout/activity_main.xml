@@ -12,25 +12,27 @@
         android:id="@+id/play"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Play"
-         />
+        android:text="@string/play"
+        android:drawableLeft="@drawable/ic_baseline_play_arrow_24"
+        android:drawableStart="@drawable/ic_baseline_play_arrow_24" />
     <Button
         android:id="@+id/pause"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pause"
-        />
+        android:text="@string/pause"
+        android:drawableStart="@drawable/ic_baseline_pause_24"
+        android:drawableLeft="@drawable/ic_baseline_pause_24" />
     <Button
         android:id="@+id/upButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="+"
+        android:text="@string/add"
         />
     <Button
         android:id="@+id/downButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="-"
+        android:text="@string/sub"
         />
 
 </LinearLayout>
